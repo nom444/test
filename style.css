@@ -1,3 +1,4 @@
+/* 全体のスタイル */
 * {
   margin: 0;
   padding: 0;
@@ -5,25 +6,52 @@
 }
 
 body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   height: 100vh;
-  background-color: #f0f0f0;
-  font-family: Arial, sans-serif;
 }
 
-h1 {
-  margin-bottom: 20px;
-  font-size: 24px;
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
 }
 
-#maze-container {
-  position: relative;
+#current-date {
+  margin-top: 10px;
+  font-size: 18px;
 }
 
-canvas {
-  border: 2px solid black;
+#calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.day {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
   background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.day:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.day.current-day {
+  background-color: #4CAF50;
+  color: white;
 }
