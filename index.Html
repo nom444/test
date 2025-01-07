@@ -3,26 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ランダム迷路ゲーム</title>
+  <title>カレンダーアプリ</title>
 
   <!-- マニフェストファイル -->
   <link rel="manifest" href="manifest.json">
 
   <!-- PWAのテーマカラー -->
-  <meta name="theme-color" content="#6200ea">
-  
+  <meta name="theme-color" content="#4CAF50">
+
   <!-- アイコン -->
   <link rel="icon" href="images/icon-192x192.png" sizes="192x192">
   <link rel="apple-touch-icon" href="images/icon-192x192.png">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>ランダム迷路ゲーム</h1>
-  <div id="maze-container">
-    <canvas id="mazeCanvas"></canvas>
-  </div>
+  <header>
+    <h1>カレンダーアプリ</h1>
+    <div id="current-date"></div>
+  </header>
+
+  <div id="calendar"></div>
+
   <script src="script.js"></script>
 
   <!-- サービスワーカー登録 -->
