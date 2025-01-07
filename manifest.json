@@ -1,0 +1,21 @@
+{
+  "name": "ランダム迷路ゲーム",
+  "short_name": "迷路ゲーム",
+  "description": "ランダムに生成される迷路を解くゲーム",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#6200ea",
+  "icons": [
+    {
+      "src": "images/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
