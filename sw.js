@@ -1,8 +1,8 @@
-const CACHE_NAME = 'maze-game-cache-v1';
+const CACHE_NAME = 'calendar-app-cache-v1';
 const urlsToCache = [
   '/',
   '/index.html',
-  '/styles.css',
+  '/style.css',
   '/script.js',
   '/manifest.json',
   '/images/icon-192x192.png',
