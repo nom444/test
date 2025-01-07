@@ -3,32 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#6200ea">
-  <meta name="description" content="ランダム迷路ゲーム">
   <title>ランダム迷路ゲーム</title>
 
   <!-- マニフェストファイル -->
   <link rel="manifest" href="manifest.json">
 
+  <!-- PWAのテーマカラー -->
+  <meta name="theme-color" content="#6200ea">
+  
   <!-- アイコン -->
   <link rel="icon" href="images/icon-192x192.png" sizes="192x192">
   <link rel="apple-touch-icon" href="images/icon-192x192.png">
-  
-  <!-- PWA設定 -->
-  <meta name="apple-mobile-web-app-title" content="ランダム迷路ゲーム">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="mobile-web-app-capable" content="yes">
 
   <!-- CSS -->
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <h1>ランダム迷路ゲーム</h1>
-  <div id="timer">タイム: 0秒</div>  <!-- タイム表示 -->
   <div id="maze-container">
     <canvas id="mazeCanvas"></canvas>
   </div>
-
   <script src="script.js"></script>
 
   <!-- サービスワーカー登録 -->
@@ -45,4 +39,3 @@
   </script>
 </body>
 </html>
-
